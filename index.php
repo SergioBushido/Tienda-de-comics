@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <title>Tienda de Comics</title>
+        <link rel="stylesheet" href="css/styles.css">
+    </head>
+    <body>
+        
+        <!-- CABECERA -->
+        
+        <header id="header">
+            <div id="logo">
+                <img src="img/comics.png" alt="comics">
+                <a href="index.php">
+                    Tienda de comics
+                </a>
+            </div>
+        </header>
+        
+        <!-- MENU -->
+        
+        <nav id="menu">
+            <ul>
+                <li>
+                    <a href="#">Inicio</a>
+                </li>
+                 <li>
+                    <a href="#">Categoría 1</a>
+                </li>
+                 <li>
+                    <a href="#">Categoría 2</a>
+                </li>
+                 <li>
+                    <a href="#">Categoría 3</a>
+                </li>
+                 <li>
+                    <a href="#">Categoría 4</a>
+                </li>
+                 <li>
+                    <a href="#">Categoría 5</a>
+                </li>
+            </ul>
+        </nav>
+        
+        <div id="content">
+            
+            <!-- BARRA LATERAL -->
+            <aside id="lateral">
+                <div id="login" class="block_aside">
+                    <form action="#" method="post">
+                        <label for="email">Email</label>
+                        <input type="email" name="email">
+                        
+                         <label for="password">Contraseña</label>
+                        <input type="password" name="password">
+                        
+                        <input type="submit" value="Eviar">
+                    </form>
+                    
+                    <a href="#">Mis pedidos</a>
+                    <a href="#">Gestionar pedidos</a>
+                    <a href="#">Gestionar categorias</a>
+                    
+                </div>
+            </aside>
+            
+            
+              <!-- CONTENIDO CENTRAL -->
+              
+              <div id="central">
+                  
+                  <div class="product">
+                      <img src="img/comics.png">
+                      <h2>Coleccione completa</h2>
+                      <p>200 euros</p>
+                      <a href="">Comprar</a>
+                  </div>
+                  
+                     <div class="product">
+                      <img src="img/comics.png">
+                      <h2>Coleccione completa</h2>
+                      <p>200 euros</p>
+                      <a href="">Comprar</a>
+                  </div>
+                  
+                     <div class="product">
+                      <img src="img/comics.png">
+                      <h2>Coleccione completa</h2>
+                      <p>200 euros</p>
+                      <a href="">Comprar</a>
+                  </div>
+              </div>
+        </div>
+        
+        <!--FOOTER-->
+        <footer id="footer">
+            <p>Desarrollado por Sergio Fernández Jiménez &copy; <?=date('Y')?></p> 
+        </footer>
+        
+        
+        <?php
+        // put your code here
+        ?>
+    </body>
+</html>
