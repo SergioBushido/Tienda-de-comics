@@ -2,7 +2,7 @@
 require_once 'autoload.php';
 
 if(isset($_GET['controller'])){
-    $nombre_controlador = $_get['controller'].'Controller';
+    $nombre_controlador = $_GET['controller'].'Controller';
     
 }else{
     echo "La pagina que buscas no existe";
