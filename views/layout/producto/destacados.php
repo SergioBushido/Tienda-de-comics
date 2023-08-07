@@ -1,7 +1,7 @@
 <h1>Productos destacados</h1>
 
 <div class="product">
-    <img src="img/comics.png" />
+    <img src="<?=base_url?>img/comics.png" />
 
     <h2>Lobezno</h2>
     <p>30 euros</p>
@@ -9,7 +9,7 @@
 </div>
 
 <div class="product">
-   <img src="img/comics.png" />
+   <img src="<?=base_url?>img/comics.png" />
 
     <h2>Patrulla-x</h2>
     <p>30 euros</p>
@@ -17,7 +17,7 @@
 </div>
 
 <div class="product">
-   <img src="img/comics.png" />
+   <img src="<?=base_url?>img/comics.png" />
 
     <h2>El castigador</h2>
     <p>30 euros</p>

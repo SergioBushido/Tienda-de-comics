@@ -4,7 +4,7 @@
     <head>
         <meta charset="UTF-8">
         <title>Tienda de Comics</title>
-<link rel="stylesheet" href="/Tienda_de_comics/css/styles.css">
+<link rel="stylesheet" href="<?=base_url?>/css/styles.css">
 
 
     </head>
@@ -14,7 +14,7 @@
 
             <header id="header">
                 <div id="logo">
-                    <img src="/Tienda_de_comics/img/comics.png" alt="comics">
+                    <img src="<?=base_url?>/img/comics.png" alt="comics">
                     <a href="index.php">
                         Tienda de comics
                     </a>

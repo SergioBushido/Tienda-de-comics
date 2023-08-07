@@ -1,0 +1,15 @@
+
+<IfModule mod_rewrite.c>
+    # Activar rewrite
+    RewriteEngine On
+
+    # Redireccionar a la página de error personalizada en caso de 404
+    ErrorDocument 404 /Tienda_de_comics/error/
+
+    # Si el archivo o directorio no existe, aplicar la regla de reescritura
+    RewriteCond %{SCRIPT_FILENAME} !-d
+    RewriteCond %{SCRIPT_FILENAME} !-f
+
+    # Regla de reescritura para controlador y acción
+    RewriteRule ^(.*)/(.*) index.php?controller=$1&action=$2 [QSA,L]
+</IfModule>
