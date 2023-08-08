@@ -5,10 +5,13 @@
         <group>
             <file>file:/C:/xampp/htdocs/Tienda_de_comics/views/layout/producto/destacados.php</file>
             <file>file:/C:/xampp/htdocs/Tienda_de_comics/.htaccess</file>
+            <file>file:/C:/xampp/htdocs/Tienda_de_comics/controllers/CategoriaController.php</file>
+            <file>file:/C:/xampp/htdocs/Tienda_de_comics/controllers/ProductoController.php</file>
             <file>file:/C:/xampp/htdocs/Tienda_de_comics/config/parameters.php</file>
             <file>file:/C:/xampp/htdocs/Tienda_de_comics/index.php</file>
             <file>file:/C:/xampp/htdocs/Tienda_de_comics/index_maqueta.php</file>
             <file>file:/C:/xampp/htdocs/Tienda_de_comics/views/layout/header.php</file>
+            <file>file:/C:/xampp/htdocs/Tienda_de_comics/controllers/ErrorController.php</file>
         </group>
     </open-files>
 </project-private>
