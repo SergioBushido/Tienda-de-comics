@@ -78,4 +78,4 @@ class usuarioController{
 		header("Location:".base_url);
 	}
 	
-} // fin clase
+} // fin clase/ fin clase

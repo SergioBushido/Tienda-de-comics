@@ -34,6 +34,22 @@ a:hover{
     color: red;
 }
 
+
+table{
+    text-align: center;
+    width: 100%;
+    border-bottom: 2px solid black;
+}
+
+td{
+    border-top: 2px solid black;
+    padding: 2px;
+}
+
+.thumb{
+    width: 100px;
+}
+
 /*CONTAINER*/
 
 #container{
@@ -236,6 +252,22 @@ button, .button{
     text-decoration: none;
 }
 
+.button-small{
+    width: 120px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.button-gestion{
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.button-red{
+    background: red;
+     border: 1px solid #cf1717;
+}
+
 label,
 input[type="button"],
 input[type="submit"],
@@ -275,12 +307,27 @@ button{
     float: left;/*Para que se pongan los elementos uno a cada lado*/
     margin-right: 10px;
     margin-right: 10px;
+    margin-bottom: 30px;
     text-align: center;
     
 }
+.product a{
+    color:black;
+    text-decoration: none;
+}
+
+.product a:hover{
+    color:#555;
+}
 .product img{
-    width: 100px;
+    width: 170px;
     margin-bottom: 10px;
+}
+
+.img_carrito{
+    height: 80px;
+    display: block;
+    margin:10px auto;
 }
 
 .product h2{
@@ -294,6 +341,42 @@ button{
      margin-bottom: 10px;
 }
 
+#detail-product{
+    width: 100%;
+}
+
+#detail-product .image{
+    display: block;
+    width: 47%;
+    float:left;
+}
+
+#detail-product img{
+    display: block;
+    width: 100%;
+    float:left;
+}
+
+#detail-product .data{
+    width: 50%;
+    float:right;
+}
+
+#detail-product .description{
+    margin-bottom: 20px;
+}
+
+#detail-product .price{
+    margin-bottom: 10px;
+    font-size: 20px;
+    color: #444;
+}
+
+#detail-product .button{
+    width: 200px;
+    text-align: center;
+}
+
 /*FOOTER*/
 
 #footer{
@@ -304,4 +387,53 @@ button{
     color: white;
     background: #222222;
     border-top: 4px solid #FFFF00;
+}
+
+
+/*CARRITO*/
+.delete-carrito{
+   width: 295px;
+   float: left; 
+}
+
+.button-delete{
+    display: block;
+    float: left;
+    width: 100px;
+}
+
+.button-carrito{
+    width: 70px;
+    margin: 0px auto;
+    text-align: center;
+}
+
+.total-carrito{
+   width: 295px;
+   float: right; 
+}
+
+.total-carrito h3{
+    display: block;
+    float:left;
+    margin-top: 5px;
+}
+
+.button-pedido{
+    display: block;
+    float: right;
+    width: 100px;
+}
+
+.updown-unidades{
+    width: 80px;
+    margin: 0px auto;
+}
+
+.updown-unidades .button{
+    display: block;
+    width: 20px;
+    float: left;
+    padding:2px;
+    margin: 7px;
 }
