@@ -303,11 +303,11 @@ button{
 /*productos*/
 
 .product{
-    width: 20%;
+    width: 30%;
     float: left;/*Para que se pongan los elementos uno a cada lado*/
     margin-right: 10px;
     margin-right: 10px;
-    margin-bottom: 25px;
+    margin-bottom: 30px;
     text-align: center;
     
 }
@@ -320,8 +320,8 @@ button{
     color:#555;
 }
 .product img{
-  height: 150px;
-    width: 120px;
+  height: 170px;
+   
     margin-bottom: 10px;
 }
 
